@@ -53,7 +53,8 @@
 	background-color: transparent !important;
 }
 .bg-light-blue {
-	background: linear-gradient(#26a0da, #314755);
+	/*background: linear-gradient(#26a0da, #314755);*/
+	background-image: url("images/back.jpg");
 }
 .bg-white {
 	background-color: white !important;
