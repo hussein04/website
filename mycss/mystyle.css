@@ -54,7 +54,7 @@
 }
 .bg-light-blue {
 	/*background: linear-gradient(#26a0da, #314755);*/
-	background-image: url("./images/back.jpg");
+	background-image: url("back.jpg");
 }
 .bg-white {
 	background-color: white !important;
