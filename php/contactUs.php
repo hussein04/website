@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Business Website">
         <meta name="author" content="Alejandro Moracen">
-        <title>Presice CS Support/ContactUs</title>
+        <title>TechTouch</title>
 
         <!-- Bootstrap core CSS -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
                         <button id="nav-toggle-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <a class="navbar-brand text-white ml-5 text-font-Acme" href="../index.html"><h4>Presice CS Support</h4></a>
+                        <a class="navbar-brand text-white ml-5 text-font-Acme" href="../index.html"><h4>TechTouch</h4></a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="nav nav-pills ml-auto">
@@ -64,7 +64,7 @@
                 <div class="jumbotron bg-transparent">
                     <div class="row justify-content-center">
                         <div class="col-lg-6 text-center">
-                            <h1 class="text-white text-font-Acme">Precise CS Support</h1>
+                            <h1 class="text-white text-font-Acme">TechTouch</h1>
                             <hr class="my-2">
                         </div> <!--/.col-lg-6 -->
                     </div>
@@ -126,13 +126,13 @@
                         <h4>Call Us</h4>
                         <p>800-..</p>
                         <h4>Email Us</h4>
-                        <p>info@precise....</p>
+                        <p>techtouch@gmail.com....</p>
                         <h4>Hours of Operation</h4>
                         <p>Monday-Friday</p>  
                         <p>09:00am-05:00pm</p>  
                         <p>*Emergency service available for after hours.</p>
                         <h4>Address</h4>
-                        <p>123 St Florida ....</p>
+                        <p>123 Morogoro ....</p>
                     </div>
                 </div><!--div class="row"-->
             </div><!--/.container-->
@@ -144,7 +144,7 @@
                 <div class="row">
                     <div class="col-md-6 text-center">
                         <h5 class="text-white">About us</h5>
-                        <p class="text-white text-font-Fira">Precise CS support offers unmatched IT services and solutions designated for today’s business computer systems, once clients join we keep their business up and running. Our team has real-world experience treating the entirety of your technology problems, and we understand the importance of our services for your success.</p>
+                        <p class="text-white text-font-Fira">TechTouch offers unmatched IT services and solutions designated for today’s business computer systems, once clients join we keep their business up and running. Our team has real-world experience treating the entirety of your technology problems, and we understand the importance of our services for your success.</p>
                     </div><!-- /.col-md-5 -->
 
                     <div class="col-md-4 ml-auto">
@@ -158,7 +158,7 @@
 
                 <div class="row text-center">
                     <div class="col-lg-12">
-                        <h6 class="text-white">Made by <a class="text-blue">Alejandro Moracen</a></h6>
+                        <h6 class="text-white">Made by <a class="text-blue">HUSSEIN TWAHA CEO</a></h6>
                     </div>
                 </div>
             </div><!--div class="container fluid-->
