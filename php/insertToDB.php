@@ -14,7 +14,7 @@
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
             //Inserting a record
-            $sql = "Insert into PreciseClients (fname,lname,companyName,email,phoneNumber,address,city,state,zipCode,comment) values ";
+            $sql = "Insert into techtouchClients (fname,lname,companyName,email,phoneNumber,address,city,state,zipCode,comment) values ";
             $sql.= "('".$_POST['fName']."',";
             $sql.= "'".$_POST['lName']."',";
             $sql.= "'".$_POST['companyName']."',";
@@ -28,7 +28,7 @@
 
             $conn->exec($sql);
 
-            $stmt = $conn->prepare("SELECT id FROM PreciseClients 
+            $stmt = $conn->prepare("SELECT id FROM techtouchClients 
                     where email ='".$_POST['email']."'");
             $stmt->execute();
             $flag = $stmt->setFetchMode(PDO::FETCH_ASSOC);
@@ -36,7 +36,7 @@
 
 
             //Inserting a record
-            $sql2 = "Insert into PreciseClientSubscription (clientId,serviceId) values ";
+            $sql2 = "Insert into techtouchClientSubscription (clientId,serviceId) values ";
             $sql2.= "($result,"; 
             $sql2.= "'".$_POST['serviceArea']."')";
             $conn->exec($sql2);
@@ -44,7 +44,7 @@
 
             if ($conn) {
                 $mail_to = 'email@gmail.com';
-                $subject = 'Message from Precise CS Support Visitor ';
+                $subject = 'Message from techtouch Visitor ';
                 $body_message = 'New Request';
                 mail($mail_to, $subject, $body_message);
                 ?>
